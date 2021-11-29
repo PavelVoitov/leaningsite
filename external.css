@@ -1,0 +1,214 @@
+body {
+    font-family: Arial;
+    font-size: larger;
+    color:darkgoldenrod;
+
+}
+#translateRussian {
+    position: absolute;
+    color:rgb(29, 148, 216);
+    background-color: whitesmoke;
+    font-size: 0.4em;
+    font-family: "Comic Sans MS";
+    width: 13%;
+    height: 3.5%;
+    top: 15%;
+    border-radius:  35px; 
+}
+
+#translateEnglish {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    color: rgb(241, 79, 3);
+    background-color: whitesmoke;
+    font-size: 0.4em;
+    font-family: "Comic Sans MS";
+    width: 13%;
+    height: 3.5%;
+    border-radius: 35px;
+}
+
+#replaceButton {
+    position: absolute;
+    left: 10%;
+    top: 49%;
+    color: rgb(241, 79, 3);
+    background-color: whitesmoke;
+    font-size: 0.4em;
+    font-family: "Comic Sans MS";
+    width: 7%;
+    height: 3%;
+    border-radius: 35px;
+}
+
+#welcome {
+    position: absolute;
+    top: 8%;
+}
+
+#line {
+    position: absolute;
+    top: 9%;
+}
+
+#inputWords {
+    position: absolute;
+    float: left;
+    height: 15%;
+    top: 25%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+li {
+    line-height: 2em;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+
+input {
+    border-width: 0px 0px 2px 0px;
+    border-color: #333;
+}
+
+
+.replacement {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#story {
+    margin-right: 30%;
+    margin-top: 5%;
+    width: 25%;
+    border: 6px dashed blue;
+    padding: 26px;
+    float: right;
+    border-radius: 35px;
+}
+
+#textHowToLeanJS {
+    position: absolute;
+    left: 1%;
+    top: 60%;
+    font-size: 0.9em;
+    font-family: "Comic Sans MS";
+    width: 35%;
+    height: 3%;
+    border-radius: 35px;
+    color: teal;
+}
+
+#howToLeanJS {
+    position: absolute;
+    left: 1%;
+    top: 68%;
+    font-size: 0.9em;
+    color: rgb(155, 155, 24);
+    font-family: "Comic Sans MS";
+    width: 36%;
+    height: 10%;
+    
+}
+
+#container {
+    position: absolute;
+    width: 360px;
+    height: 200px;
+    top: 80%;
+    background-color: rgb(83, 187, 73);
+}
+
+#way {
+    width: 340px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 10px auto;
+}
+
+#rabbit {
+    position: relative;
+    width: 100px;
+    height: 92px;
+    left: 0px;
+}
+
+#stopButton {
+    position: absolute;
+    left: 30%;
+    top: 64%;
+    color: rgb(241, 79, 3);
+    background-color: whitesmoke;
+    font-size: 0.9em;
+    font-family: "Comic Sans MS";
+    width: 30%;
+    height: 30%;
+    border-radius: 35px;
+}
+
+#listPage {
+    position: absolute;
+    right: 25%;
+    top: 45%;
+    font-size: 0.9em;
+    font-family: "Comic Sans MS";
+    width: 30%;
+    height: 30%;
+}
+
+#printable {
+    position: relative;
+    top: 36px;
+    right: 370px;
+}
+
+#listPage.print {
+    background-color: #FAF2AD;
+    padding: 20px;
+    font-family: "sans-serif";
+}
+
+#listPage.print ul {
+    margin: 10px 0px;
+    padding: 0px;
+    border-left: 4px double red;
+}
+
+#listPage.print li {
+    list-style-type: none;
+    margin: 0px -20px;
+    padding-left: 26px;
+    border-bottom: 1px solid blue;
+    line-height: 36px;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+#weather {
+    position: absolute;
+    left: 330px;
+    top: 3.2%;
+}
+
+#cleanPage {
+    position: absolute;
+    left: 660px;
+    top: 3.2%;
+}
+
+#lunchPage {
+    position: absolute;
+    left: 400px;
+    top: 3.2%;
+}
+
+#lemonadeStand {
+    position: absolute;
+    left: 530px;
+    top: 3.2%;
+}

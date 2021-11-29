@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial;
+    font-size: larger;
+    color:darkgoldenrod;
+
+}
+#translateRussian {
+    position: absolute;
+    color:rgb(29, 148, 216);
+    background-color: whitesmoke;
+    font-size: 0.4em;
+    font-family: "Comic Sans MS";
+    width: 13%;
+    height: 3.5%;
+    top: 15%;
+    border-radius:  35px; 
+}
+
+#translateEnglish {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    color: rgb(241, 79, 3);
+    background-color: whitesmoke;
+    font-size: 0.4em;
+    font-family: "Comic Sans MS";
+    width: 13%;
+    height: 3.5%;
+    border-radius: 35px;
+}
+
+#replaceButton {
+    position: absolute;
+    left: 10%;
+    top: 49%;
+    color: rgb(241, 79, 3);
+    background-color: whitesmoke;
+    font-size: 0.4em;
+    font-family: "Comic Sans MS";
+    width: 7%;
+    height: 3%;
+    border-radius: 35px;
+}
+
+#welcome {
+    position: absolute;
+    top: 8%;
+}
+
+#line {
+    position: absolute;
+    top: 9%;
+}
+
+#inputWords {
+    position: absolute;
+    float: left;
+    height: 15%;
+    top: 25%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+li {
+    line-height: 2em;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+
+input {
+    border-width: 0px 0px 2px 0px;
+    border-color: #333;
+}
+
+
+.replacement {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#story {
+    margin-right: 30%;
+    margin-top: 5%;
+    width: 25%;
+    border: 6px dashed blue;
+    padding: 26px;
+    float: right;
+    border-radius: 35px;
+}
+
+#textHowToLeanJS {
+    position: absolute;
+    left: 1%;
+    top: 60%;
+    font-size: 0.9em;
+    font-family: "Comic Sans MS";
+    width: 35%;
+    height: 3%;
+    border-radius: 35px;
+    color: teal;
+}
+
+#howToLeanJS {
+    position: absolute;
+    left: 1%;
+    top: 68%;
+    font-size: 0.9em;
+    color: rgb(155, 155, 24);
+    font-family: "Comic Sans MS";
+    width: 36%;
+    height: 10%;
+    
+}
+
+#container {
+    position: absolute;
+    top: 1000px;
+    padding: 10px;
+    width: 360px;
+    height: 200px;
+    background-color: #00FF00;
+}
+#track {
+    position: absolute;
+    width: 340px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+#train {
+    height: 92px;
+    width: 100px;
+    position: relative;
+    left: 0px;
+}
+#stopButton {
+    top: 1150px;
+    margin: 150px auto;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    color: red;
+    text-align:center;
+    font-size: 24px;
+    line-height: 30px;
+}
